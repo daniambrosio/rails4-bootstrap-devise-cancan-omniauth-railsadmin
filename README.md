@@ -1,4 +1,4 @@
-# Rails 4.0 App with Mongoid, Devise, CanCan, OmniAuth and Twitter Bootstrap (TDD ready)
+# Rails 4.0 App with Mongoid, Devise, CanCan, OmniAuth, RailsA and Twitter Bootstrap (TDD ready)
 ---
 
 You can use this project as a starting point for a Rails web application. It requires Rails 4 uses Mongoid as database, Devise/OmniAuth for user management and authentication, CanCan for user access control, and Twitter Bootstrap for CSS styling.
@@ -11,7 +11,7 @@ You can use this project as a starting point for a Rails web application. It req
 * Generate new rails app from template: 
 
 ```
-rails new myapp --skip-bundle -m https://raw.github.com/alex-klepa/rails4-bootstrap-devise-cancan-omniauth/master/rails4-bootstrap.rb
+rails new myapp --skip-bundle -m https://raw.github.com/daniambrosio/rails4-bootstrap-devise-cancan-omniauth-railsadmin/master/rails4-bootstrap.rb
 ```
 * `cd myapp`
 * Edit `db/seed.rb` to customimze admin user settings then run `rake db:seed` to create admin user
