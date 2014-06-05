@@ -8,7 +8,7 @@ You can use this project as a starting point for a Rails web application. It req
 ## How to use
 
 * Install rails 4: `gem install rails`
-* Generate new rails app from template: 
+* Generate new rails app from template:
 
 ```
 rails new myapp --skip-bundle -m https://raw.github.com/daniambrosio/rails4-bootstrap-devise-cancan-omniauth-railsadmin/master/rails4-bootstrap.rb
@@ -41,4 +41,6 @@ config.omniauth :twitter, ENV['CONSUMER_KEY'], ENV['CONSUMER_SECRET']
 [CanCan](https://github.com/ryanb/cancan)
 
 [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+
+[Rails Admin](https://github.com/sferik/rails_admin)
 
