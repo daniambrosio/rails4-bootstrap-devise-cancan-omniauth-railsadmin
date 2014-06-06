@@ -39,3 +39,5 @@ gem "omniauth"
 gem "omniauth-facebook"
 gem "omniauth-twitter"
 gem "hashugar", github: "alex-klepa/hashugar"
+gem "rails_admin", github: "sferik/rails_admin"
+

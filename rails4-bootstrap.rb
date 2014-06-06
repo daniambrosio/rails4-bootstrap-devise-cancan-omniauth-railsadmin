@@ -82,12 +82,14 @@ route 'resources :users'
 route <<-eos
 
   devise_for :users, controllers: {
-    registrations: "users/registrations", 
-    passwords: "users/passwords", 
+    registrations: "users/registrations",
+    passwords: "users/passwords",
     omniauth_callbacks: "users/omniauth_callbacks"
   }
 eos
 route <<-eos
+
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
   authenticated :user do
     root to: 'home#index', as: :authenticated_root
