@@ -69,6 +69,7 @@ gem "omniauth-facebook"
 gem "omniauth-twitter"
 gem "hashugar", github: "alex-klepa/hashugar"
 gem "rails_admin", github: "sferik/rails_admin"
+gem "rails_semantic_logger", github: "reidmorrison/semantic_logger"
 
 run 'bundle install'
 
