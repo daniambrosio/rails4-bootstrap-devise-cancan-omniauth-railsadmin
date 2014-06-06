@@ -1,13 +1,14 @@
 BootstrapApp::Application.routes.draw do
-  
-  
+
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
   authenticated :user do
     root :to => 'home#index'
   end
 
   devise_for :users, :controllers => {
-    registrations: "users/registrations", 
-    passwords: "users/passwords", 
+    registrations: "users/registrations",
+    passwords: "users/passwords",
     omniauth_callbacks: "users/omniauth_callbacks"
   }
 
