@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/daniambrosio/rails4-bootstrap-devise-cancan-omniauth-railsadmin/badges/gpa.svg)](https://codeclimate.com/github/daniambrosio/rails4-bootstrap-devise-cancan-omniauth-railsadmin)
 [![Coverage Status](https://coveralls.io/repos/daniambrosio/rails4-bootstrap-devise-cancan-omniauth-railsadmin/badge.svg)](https://coveralls.io/r/daniambrosio/rails4-bootstrap-devise-cancan-omniauth-railsadmin)
 
 # Rails 4.0 App with Mongoid, Devise, CanCan, OmniAuth, RailsAdmin and Twitter Bootstrap (TDD ready)
