@@ -18,8 +18,12 @@ require 'sprockets/railtie'
 eos
 end
 
+# Comments out everything realted with active_record from the startup scripts
+# created by the "rails new myapp" command
+gsub_file 'config/environments/test.rb', 'config.active_record', '#config.active_record'
 gsub_file 'config/environments/development.rb', 'config.active_record', '#config.active_record'
 gsub_file 'config/environments/production.rb', 'config.active_record', '#config.active_record'
+gsub_file 'config/application.rb', 'config.active_record', '#config.active_record'
 
 ### Gems
 remove_file 'Gemfile'
